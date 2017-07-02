@@ -784,11 +784,8 @@ select{
 	text-decoration: none;
 }
 .footer .footer-column{
-	padding-left:68px;
+	padding:10px 68px;
 	background-color:#ebebeb;
-	padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
 	width: 100%;
 	box-sizing: border-box;
 }
@@ -809,11 +806,11 @@ select{
 	vertical-align: 2px;
 }
 .footer .footer-bottom{
-	padding: 50px 0 0px;
+	padding: 50px 68px;
 }
 .footer .footer-bottom > div{
 	vertical-align: middle;
-	margin-left: 100px;
+	margin:0 35px;
 }
 .footer .social-links a{ 
 	display: inline-block;
@@ -905,7 +902,7 @@ select{
 	}
 	
 	.footer .footer-column{
-		padding-left:60px;	
+		padding:10px 0;	
 	}
 }
 @media screen and (max-width: 990px){ 
@@ -2078,9 +2075,6 @@ ul.slick-dots{
 	}
 }
 @media screen and (max-width: 1024px) {
-	body {
-		border:solid 1px black !important;
-	}
 	.mod-heroslider.thrive .slider-image-content{
 		width: 70%;
 	}
@@ -2445,16 +2439,6 @@ ul.slick-dots{
 }
 /*MOBILE*/
 @media screen and (max-width: 765px) { 
-	body {
-		border:solid 1px green !important;
-	}
-	.narrow .mod-tabs{
-		/*
-		margin-left: 0;
-		margin-right: 0;
-		*/
-	}
-	
 	.narrow .mod-tabs .padding-default{
 		margin-left: 0;
 		margin-right: 0;
@@ -2794,9 +2778,6 @@ ul.slick-dots{
 }
 
 @media screen and (max-width: 1280px) { 
-	body {
-		border:solid 2px blue !important;
-	}
 	.mod-testimonial {
 		padding: 0
 	}
@@ -3811,13 +3792,6 @@ ul.section-grouplisting{
 	.footer .footer-column > div{
 		margin-left: 0px;
 	}
-	.footer .footer-column {
-		padding-left:40px 
-	}
-	.footer .footer-bottom > div {
-		margin-left: 35px;
-	}
-
 	.mod-testimonial-intro{
 		margin-bottom: -15px;
 	}
@@ -5106,9 +5080,7 @@ button.button.primary, .mod-filter .filter-submit .button.primary
  * FIXES  	  
  */
 @media screen and (min-width: 766px) {
-	body {
-		border:solid 10px purple !important;
-	}
+
 	.mod-filter .form-accordian .form-header{
 		cursor: default;
 	}
@@ -5138,9 +5110,6 @@ button.button.primary, .mod-filter .filter-submit .button.primary
  * FIXES  	  
  */
 @media screen and (max-width: 765px) {
-	body {
-		border:solid 2px yellow !important;
-	}
 	.mod-filter{
 		min-height: 200px;
 	}
@@ -5661,9 +5630,6 @@ button.button.primary, .mod-filter .filter-submit .button.primary
  * FIXES *
  */
 @media screen and (min-width: 766px) and (max-width: 899px){ 
-	body {
-		border:solid 1px cadetblue !important;
-	}
 	.mod-testimonial-3 .empprofile-content-header-img
 	{
 		display: none;
@@ -5671,6 +5637,9 @@ button.button.primary, .mod-filter .filter-submit .button.primary
 	.mod-testimonial-4 .empprofile-content-header-img
 	{
 		display: none;
+	}
+	.mod-testimonial {
+		padding: 0
 	}
 }
 
