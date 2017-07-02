@@ -104,8 +104,9 @@ body{
 
 .underlay-text {
 	position:relative;
-	padding-left:8.5%;
-	padding-right:8.5%;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 45px
 }
 .maincontain.homepage .header
 {
@@ -260,9 +261,11 @@ margin: 0 0 0 0;
 }
 
 .content-drop-two {
-	clear:both;
-	margin-left:8.5%;
-	margin-right:8.5%;  
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+	padding: 0 45px;
 }
 
 .content-drop-two .col-lg-12{
@@ -272,8 +275,9 @@ margin: 0 0 0 0;
 }
 @media screen and (min-width: 1180px) { 
 	.narrow-full .padding-default.one-col-padding{
-		padding-right:150px;
-		width:1075px;
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 45px 45px;
 	}
 }
 .spacer10{
@@ -905,15 +909,6 @@ select{
 		padding:10px 0;	
 	}
 }
-@media screen and (max-width: 990px){ 
-	.narrow{ 
-		padding: 0px 35px 0px 35px;
-	}
-	.narrow .padding-default{
-		padding-left:0;
-		padding-right:0;	
-	}
-}
 @media screen and (max-width: 875px){
 	.narrow-article
 	{
@@ -955,10 +950,6 @@ select{
 	.narrow .padding-default{
 		padding-left: 30px; 
 		padding-right: 30px;
-	}
-	.narrow .padding-default{
-		margin-left: -30px;
-		margin-right: -30px;	
 	}
 	.divider{ 
 		border-top: 1px #474c55 solid;
@@ -1108,9 +1099,7 @@ select{
 		font-size: 35px; 
 		line-height: 45px;
 	}*/
-	.footer .footer-bottom{
-		padding-top: 40px; 
-	}
+
 	.footer .social-links{
 		float: none; 
 		/*margin-bottom: 30px;*/ 
@@ -1148,20 +1137,12 @@ select{
 /*******************
 	MOD CONTENT - content
 *******************/
-
-/*header*/
 .content-header{
-	/*max-width: 760px;*/
 	position: relative;
 	font-size:18px;
 	line-height:26px;
-	padding-top: 100px;
-	padding-right: 30px;
-	padding-bottom: 1px;
-	/*padding-left: 30px; pravin*/
-	padding-left: 0px;
+	padding: 100px 45px 0;
 	margin-bottom:20px;
-	margin-left:8.5%; /* 9.5 */
 }
 
 .content-header p{
@@ -1229,17 +1210,6 @@ select{
 	padding-left: 50px;
 }
 
-@media screen and (min-width: 991px){ 
-.narrow-full .padding-default, .narrow .padding-default{
-		padding-left:0;
-		padding-right:0;	
-	}
-.narrow-article .padding-default, .narrow .padding-default{
-		padding-left:0;
-		padding-right:0;	
-	}
-}
-
 /*NARROW*/
 @media screen and (min-width: 1281px){ 
 	.narrow .padding-default{
@@ -1262,18 +1232,8 @@ select{
 
 /*MOBILE*/
 @media screen and (max-width: 765px){ 
-	/*.content-header{ 
-		font-size: 31px;
-		font-weight: 300;
-		line-height: 44px;
-		padding: 30px 55px 0px;
-	}*/
 	.narrow .content-header{
-		padding: 15px 0 0px;
-		margin-bottom:20px;
-	}
-	.hero-content{
-		/*margin-top: -28px;*/
+    	padding-top: 45px;
 	}
 	.hero-content.content-header{ 
 		padding: 20px 25px 25px;
@@ -1282,7 +1242,6 @@ select{
 		margin-bottom: 0px;
 	}
 	.content-header:after{
-		/*margin-top: 60px;*/
 		width: 110px;
 		height: 8px;
 	}	
@@ -1824,7 +1783,6 @@ ul.slick-dots{
 	width: 100%;
 	box-sizing: border-box;
 	position: absolute;
-	/*top:0px;*/
 	left:0px;
 	bottom: 0px;
 	background-color: rgba(119, 188, 31, 0.8);
@@ -1832,7 +1790,7 @@ ul.slick-dots{
 }
 
 .narrow-inner .mod-heroslider .slider-image-content{
-	padding: 0px 42px 0px 38px;
+	padding: 0px 45px;
 	width: 100%;
 	box-sizing: border-box;
 	position: absolute;
@@ -1883,11 +1841,13 @@ ul.slick-dots{
 	
 }
 .mod-heroslider .slider-header{
-	font-size: 60px;
+	font-size: 36px;
 	line-height: 1.069em;
 	padding-top: 0px;
-	font-family: 'HelveticaNeueW01-75Bold', Helvetica, Arial, sans-serif;
+	font-family: "Roboto Slab";
 	cursor: default;
+	font-weight: 100;
+	padding: 20px 0;
 }
 .mod-heroslider .slider-header h2{
 	font-size: 50px;
@@ -2783,9 +2743,6 @@ ul.slick-dots{
 	}
 	.content-drop-two{
 		margin: 0;
-	}
-	.padding-default-sides {
-		margin-top: 0;
 	}
 	.mod-testimonial {
 		padding: 0;
@@ -5080,7 +5037,9 @@ button.button.primary, .mod-filter .filter-submit .button.primary
  * FIXES  	  
  */
 @media screen and (min-width: 766px) {
-
+	.footer .footer-bottom {
+		padding: 50px 0
+	}
 	.mod-filter .form-accordian .form-header{
 		cursor: default;
 	}
@@ -5110,6 +5069,19 @@ button.button.primary, .mod-filter .filter-submit .button.primary
  * FIXES  	  
  */
 @media screen and (max-width: 765px) {
+	div#textpaddown {
+		padding:  30px;
+	}
+	.padding-default-sides{
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	.footer .footer-bottom{
+		padding: 50px 0; 
+	}
+	.content-drop-two {
+		padding: 0;
+	}
 	.mod-filter{
 		min-height: 200px;
 	}
@@ -5630,6 +5602,10 @@ button.button.primary, .mod-filter .filter-submit .button.primary
  * FIXES *
  */
 @media screen and (min-width: 766px) and (max-width: 899px){ 
+	
+	.homepage .mod-heroslider .slider-header {
+		padding: 0
+	}
 	.mod-testimonial-3 .empprofile-content-header-img
 	{
 		display: none;
@@ -7102,35 +7078,29 @@ table#main {
 
 		/* Customer served page orange background */
 		#banner1ColumnLayout {
-
-		width:100%;
-		/*height:240px; pravin*/
-		height:100%;
-		color:#333333;
-		font-family:"Roboto Slab";
-		font-weight:300;
-		font-size:36px;
-		margin-left:0%; 
-		margin-right:-35%; 
-		background: linear-gradient(to right,#f38b00,#f38b00,#EBA754,#EBA754,#EBA754,#EEB050,#ffd13f,#ffd13f);
-		padding:0px 0px 30px 0px;
+			width:100%;
+			/*height:240px; pravin*/
+			height:100%;
+			color:#333333;
+			font-family:"Roboto Slab";
+			font-weight:300;
+			font-size:36px;
+			margin-left:0%; 
+			margin-right:-35%; 
+			background: linear-gradient(to right,#f38b00,#f38b00,#EBA754,#EBA754,#EBA754,#EEB050,#ffd13f,#ffd13f);
+			padding:0px 0px 30px 0px;
 		}
-
 		#header1ColumnLayout{
-/* 		padding:2.5%; */
-		color:white;
-		font-family:"Helvetica";
-		font-size:20px;
-		margin-top:-20px
-
+			color:white;
+			font-family:"Helvetica";
+			font-size:20px;
+			max-width: 1280px;
+			margin: -20px auto 0;
 		}
-
 		#content{
-
-		margin-left:100px;
-		font-family:"Roboto slab";
-		font-weight:400;
-
+			margin-left:100px;
+			font-family:"Roboto slab";
+			font-weight:400;
 		}
 		
 		/* content-promo-color */
@@ -7272,14 +7242,12 @@ table#main {
 		margin-left:80px;
 		} */
 		.two-coloumn-promo {			
-		width: 100%;		
-		position: relative;	
-		border:10px solid rgb(255, 255, 255);
-		height:100%;		
-		padding-left:37px; 
-		padding-bottom:20px;
-		padding-top:35px;
-		margin-left:0px;
+			width: 100%;		
+			position: relative;	
+			border:10px solid rgb(255, 255, 255);
+			height:100%;		
+			padding: 45px;
+			margin-left:0px;
 		}
 		
 		.one-coloumn-promo{			
@@ -7391,10 +7359,7 @@ table#main {
 		margin-top: -15px;
 	}
 	#textpad{
-	margin-left:8.5%;
-	margin-bottom:5%;
-	margin-top:5%;
-	margin-right: 8.5%;
+		/*margin:45px 8.5%;*/
 	}
 	#narrow-padding{
 	padding: 0px 0px 0px 0px;
@@ -7430,11 +7395,14 @@ table#main {
 	margin-left:-20px;
 	}
 	#textpaddown{
-    margin-left: 8.5%;
-    margin-bottom: 4%;
-    margin-top: 0%;
-	margin-right: 8.5%;
-}
+		max-width: 1280px;
+		margin:0 auto;
+		padding: 0 75px 45px;
+		
+	}
+	#textpadddown h2, h2 {
+		font-size: 30px
+	}
 .one-coloumn-body {	
 	margin-left:55px !important;
 	margin-right:80px !important;
