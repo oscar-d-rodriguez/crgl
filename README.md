@@ -1,1 +1,1 @@
-Repor for manage of the styles of CRGL
+Source control of CRGL styles
