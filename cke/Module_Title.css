@@ -1,0 +1,96 @@
+ body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: #fff; }
+a {
+    text-decoration: underline;
+    color: #0b94a2;
+}
+p {
+  margin: 0 0 10px; }
+  
+h2 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit; 
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  }
+  
+h2.accent{
+	
+}
+h2.accent{
+  color: #98999B;
+}
+h2.accent a{
+    color: #98999B;
+    text-decoration:underline;
+}
+h2.accent a:hover{
+    color: #98999B;
+    text-decoration:none;
+}
+h2.grey {
+	color: #63656A;
+}
+h2.grey {
+	color: #63656A;
+}
+h2.grey a{
+    color: #63656A;
+    text-decoration:underline;
+}
+h2.grey a:hover{
+    color: #63656A;
+    text-decoration:none;
+}
+h3 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit; 
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  }
+  
+h3.accent {
+	
+}
+h3.accent{
+  color: #98999B;
+}
+h3.accent a{
+    color: #98999B;
+    text-decoration:underline;
+}
+h3.accent a:hover{
+    color: #98999B;
+    text-decoration:none;
+}
+h3.grey {
+	color: #63656A;
+}
+h3.grey {
+	color: #63656A;
+}
+h3.grey a{
+    color: #63656A;
+    text-decoration:underline;
+}
+h3.grey a:hover{
+    color: #63656A;
+    text-decoration:none;
+}
+  
+h4 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }

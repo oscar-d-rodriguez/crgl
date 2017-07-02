@@ -1,0 +1,21 @@
+/**
+	Used to apply styles in WEB MODE CKEditor.
+**/
+
+@import "HomePage_PageTitle.css";
+@import "GeneralPage_PageTitle.css";
+@import "GeneralPage_SubTitle.css";
+@import "GeneralPage_BodyText.css";
+@import "Banner_BannerText.css";
+@import "BodyPromo_Heading.css";
+@import "BodyPromo_SubHeading.css";
+@import "BodyPromo_BodyText.css";
+@import "News_BodyText.css";
+@import "News_Abstract.css";
+@import "NewsList_TextBefore.css";
+@import "NewsList_TextAfter.css";
+@import "Promo_Heading.css";
+@import "Promo_BodyText.css";
+@import "Promo_BodyText_Ext.css";
+@import "Footer_CopyRight.css";
+
