@@ -88,6 +88,10 @@ body{
 	color: #333333;
 	font-weight: normal;
 }
+
+a:focus {
+	outline: none
+}
 .maincontain{
 	/*max-width: 1280px;*/
 	margin: 0 auto;
@@ -836,7 +840,15 @@ select{
 	color: #474c55 !important;
 }
 
-
+	#tabs-1 .mod-testimonial{ 
+		margin: 0 35px 0 15px;
+	}
+	#Promotxt .mod-testimonial {
+		padding: 0 15px;
+	}
+	#Promotxt .mod-testimonial-1 .testimonial-item {
+		margin-left: 0
+	}
 
 /*TABLET*/
 @media screen and (max-width: 1280px){
@@ -5072,6 +5084,35 @@ button.button.primary, .mod-filter .filter-submit .button.primary
 }
 /*MOBILE*/
 @media screen and (max-width: 765px) {
+
+	.mod-tabs .accordion .sidenav-contain  {
+		width: 100%;
+	}
+	.mod-tabs .accordion .padding-default {
+		padding: 0;
+	}
+	.mod-tabs #Promotxt .mod-testimonial {
+		padding:15px 0 30px ;
+	}
+	.mod-tabs #prmdata {
+		margin-top: 0
+	}
+	#banner .narrow .padding-default {
+		padding: 0;
+	}
+	div#textpaddown {
+		padding:  30px;
+	}
+	.padding-default-sides{
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	.footer .footer-bottom{
+		padding: 50px 0; 
+	}
+	.content-drop-two {
+		padding: 0;
+	}
 	.mod-filter{
 		min-height: 200px;
 	}
@@ -5588,14 +5629,26 @@ button.button.primary, .mod-filter .filter-submit .button.primary
 	padding-right: 15px;
 }
 
-@media screen and (min-width: 766px) and (max-width: 899px){
-	.mod-testimonial-3 .empprofile-content-header-img
-	{
+/*
+ * TABLET LANDSCAPE
+ * FIXES *
+ */
+@media screen and (min-width: 766px) and (max-width: 899px){ 
+	#Promotxt .mod-testimonial,
+	.homepage .mod-heroslider .slider-header,
+	.mod-testimonial {
+		padding: 0
+	}
+	.mod-testimonial-3 .empprofile-content-header-img,
+	.mod-testimonial-4 .empprofile-content-header-img{
 		display: none;
 	}
-	.mod-testimonial-4 .empprofile-content-header-img
-	{
-		display: none;
+	#Promotxt .mod-testimonial-1 .testimonial-item {
+		margin: 0 15px;
+	}
+	.ui-tabs .ui-tabs-panel.padding-default, 
+	.ui-tabs .ui-tabs-panel .padding-default {
+		padding: 55px 15px 55px 65px;
 	}
 }
 
