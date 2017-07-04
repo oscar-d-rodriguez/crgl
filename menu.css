@@ -889,10 +889,13 @@ nav {
 	position: relative;
 	left: 0;
 	top: 0;
-	width: 31%;
+	width: 100%;
 	height: auto;
 	float: left;
 	margin-right: 35px;
+}
+.tabs .sidenav-contain {
+  width: 30%;
 }
 .sidenav-contain > #promoImage >div>.sidenav-contain{
     width: 100%;
@@ -940,18 +943,22 @@ nav {
 }
 .sidenav-contain .sidenav .lvl-2 li > .expandable a{
 	padding-right:60px;
+  font-family: 'HelveticaNeueW01-55Roma', Helvetica, Arial, sans-serif;
+  font-size: 18px;
 }
 .sidenav-contain .sidenav .lvl-2 li.expanded > .expandable,
 .sidenav-contain .sidenav .lvl-2 li.expanded > .expandable a{
 	background: #ebebeb;
-	color: #4e9d2d !important;
+	color: #333 !important;
 	border-bottom: none;
+  font-family: 'HelveticaNeueW01-55Roma', Helvetica, Arial, sans-serif;
+  font-size: 18px;
 }
 .sidenav-contain .sidenav .lvl-2 li.expanded > .expandable span{
 	color: #fff !important;
 }
 .sidenav-contain .sidenav .lvl-2 > ul > li{
-	padding: 0 10px 5px 30px;
+	padding: 0 10px 5px 20px;
 	border-bottom: 1px solid #b8b9ba;
 }
 .sidenav-contain .sidenav .lvl-3 a{
@@ -1039,7 +1046,7 @@ nav {
 	.sidenav-contain{
 		/*! position: absolute; */
 		/*! left: -285px; */
-		width:30%;
+		width:100%;
 	}
   
   .sidenav-contain > #promoImage >div>.sidenav-contain{
