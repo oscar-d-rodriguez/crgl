@@ -7,7 +7,10 @@
   box-sizing: border-box; }
 
 .mod-heroslider {
-  margin-top: 0; }
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  }
 
 .header .menuToggle, .mobile-search, .logo-bar {
   display: none; }
