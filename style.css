@@ -13,7 +13,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video{ 
+time, mark, audio, video{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -22,8 +22,8 @@ time, mark, audio, video{
 	vertical-align: baseline;
 	outline: none;
 	font-weight:normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	-ms-flex: 0 1 auto;
 }
 
@@ -120,10 +120,10 @@ a:focus {
 .header-background{
 	background-color: #ebebeb;
 }
-.pagecontain{ 
+.pagecontain{
 	position: relative;
 	overflow: hidden;
-	max-width: 1280px;
+	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -175,9 +175,8 @@ strong,
 	font-family: 'HelveticaNeueW01-75Bold', Helvetica, Arial, sans-serif;
 }
 img{
-	
 	height: auto;
-	 width:100%; /*@*/
+	width:100%; /*@*/
 }
 p{ 
 	/*margin-top: 16px;*/
@@ -250,16 +249,17 @@ margin: 0 0 0 0;
 		border-top: solid 1px #474c55;
 }
 
-.padding-default{ 
+.padding-default{
 	padding: 45px 55px 45px;
 }
-.padding-default-sides{ 
+.padding-default-sides{
 	padding: 0px 55px 0px;
 }
 .content-drop-one{
 	clear:both;
-	margin-left:0;
-	margin-right:0;  
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1280px;
 }
 
 .content-drop-two {
@@ -279,7 +279,7 @@ margin: 0 0 0 0;
 	.narrow-full .padding-default.one-col-padding{
 		max-width: 1280px;
 		margin: 0 auto;
-		padding: 45px 45px;
+		padding: 45px 45px 0px 48px;
 	}
 }
 .spacer10{
@@ -509,7 +509,7 @@ button{
     clear: both;
     visibility: hidden;
 }
-.row>div{ 
+.row>div{
 	/*padding: 0 11px;*/
 	box-sizing: border-box;
 	float: left;
@@ -1339,10 +1339,8 @@ select{
 .slick-list
 {
     position: relative;
-
     display: block;
     overflow: hidden;
-
     margin: 0;
     padding: 0;
 }
@@ -1396,7 +1394,6 @@ select{
 {
     display: none;
     float: left;
-
     height: 100%;
     min-height: 1px;
 }
@@ -1407,7 +1404,7 @@ select{
 .slick-slide img
 {
     display: block;
-	width:100%;
+    width:100%;
 }
 .slick-slide.slick-loading img
 {
@@ -1554,7 +1551,7 @@ select{
 /* Dots */
 .slick-slider
 {
-    /*margin-bottom: 30px;*/
+    /* margin-bottom: 30px; */
 }
 
 .slick-dots
@@ -1656,8 +1653,8 @@ ul.slick-dots{
 }
 /*slick slider overrides*/
 .mod-heroslider .slick-slider{
-	/*margin-bottom: -10px;*/
-	/*margin-top:-58px;*/
+	/* margin-bottom: -10px; */
+	/* margin-top:-58px; */
 	/*background: #ddd;*/
 	z-index: 3;
 	position:relative;
@@ -1719,17 +1716,17 @@ ul.slick-dots{
 }
 .mod-heroslider .slider-image,
 .mod-heroslider .hero-video{
-	/*min-height: 500px;*/
+	/* min-height: 500px; */
 	max-height: 550px;
 	background: #fafafa;
 	display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: -o-flex;
-    display: flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: -o-flex;
+	display: flex;
 	-webkit-box-align: end;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: end;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
 	align-items: flex-end;
 	background-size: cover;
 	background-position: center top;
@@ -1739,7 +1736,7 @@ ul.slick-dots{
 }
 .mod-heroslider .one-item .slider-image,
 .mod-heroslider .one-item .hero-video{
-	/*margin-bottom:-30px;*/
+	/* margin-bottom:-30px; */
 }
 
 .mod-heroslider .hero-video iframe{
@@ -1778,7 +1775,7 @@ ul.slick-dots{
 }
 
 .mod-heroslider .hero-sizer{
-	/*position:absolute;*/
+	/* position:absolute; */
 }
 
 .videooverlay{
@@ -3442,7 +3439,7 @@ ul.section-grouplisting{
 	padding: 0 45px;
 }
 .body-note .mod-testimonial {
-	padding: 30px
+	padding: 30px;
 }
 .testimonial-details span.button-secondary  a {
 	float: left;
@@ -3578,11 +3575,14 @@ ul.section-grouplisting{
 	content: " ";
 }
 
-.mod-testimonial-1{ 
-	/*background: #f5f5f5;*/
-	/*padding-left: 25px;*/
+.mod-testimonial-1{
+	/* background: #f5f5f5; */
+	/* padding-left: 25px; */
 	position:relative;
 	z-index:1;
+	/* max-width: 1280px; */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
 }
 .mod-testimonial-1 .testimonial{ 
 	
@@ -3621,7 +3621,7 @@ ul.section-grouplisting{
 	background-position: center center;
 	background-size: cover;
 }
-.mod-testimonial-1 .testimonial-content{ 
+.mod-testimonial-1 .testimonial-content{
 	display: table-cell;
 	vertical-align: middle;
 	padding: 30px 65px 30px;
@@ -4370,6 +4370,9 @@ ul.section-grouplisting{
  		/*! border-left: solid 1px #333333; */
 		/*! border-right: solid 1px #333333; */
 		/*! border-bottom: solid 1px #333333; */
+		border-right: solid 0.5px #333;
+		border-left: solid 0.5px #333;
+		border-bottom: solid 0.5px #333;
 	}
 /* 	.ui-accordion .ui-accordion-content .padding-default{ 
 	padding-left: 65px;
@@ -4381,13 +4384,11 @@ ul.section-grouplisting{
    	 	/*padding: 18px 0 20px 55px;*/
 	}
 	.ui-accordion-header-icon:before{
-		left: 20px;	
+		/* left: 20px; */
 	}
 }
 @media screen and (max-width: 990px) { 
 	.narrow .mod-showhide{
-		margin-left: -30px;	
-		margin-right: -30px;	
 	}
 	.narrow .mod-showhide .padding-default {
 		padding: 45px 30px 45px;
@@ -7313,15 +7314,6 @@ table#main {
 		margin-bottom:50px;
 		}
 		
-		.one-coloumn-body {			
-		margin-left:65px !important;
-		margin-right:90px !important;
-		}
-		/*		
-		.two-coloumn-body{			
-		margin-left:-12px !important;
-		margin-right:45px !important;
-		}*/
 		.testimonial-image-contain-promo{
 			width:30%;
 			height:20%;
@@ -7410,7 +7402,7 @@ table#main {
 	background:white;
 	}
 	.testimonial-item-promo{
-		background-color: #ffd13f;
+		background-color: #77bc1f;
 		width: 100%;
 		/*
 		margin-left: 23px;
@@ -7462,9 +7454,10 @@ table#main {
 	#textpadddown h2, h2 {
 		font-size: 30px
 	}
-.one-coloumn-body {	
-	margin-left:55px !important;
-	margin-right:80px !important;
+.one-coloumn-body {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1280px;
 }	
 	
 div.row-image>img {
@@ -7488,4 +7481,12 @@ div.two-coloumn-body .testimonial-item-promo .testimonial-image-contain>img{
 }
 div.two-coloumn-body .testimonial-item-promo .testimonial-image-contain{
               width:30Px;       
+}
+
+.pagecontain.resourcescategoriespage {
+    max-width: 1280px;
+}
+
+.productscategoriespage {
+    max-width: 1280px;
 }
