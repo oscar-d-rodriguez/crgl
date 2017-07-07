@@ -137,7 +137,7 @@ a:focus {
 }
 
 @media screen and (max-width: 765px){ 
-	.pagecontain{ 
+	.pagecontain{
 		position: relative;
 		overflow: hidden;
 		margin-top: 0px;
@@ -767,7 +767,7 @@ select{
 .footer{
 	background-color: #dbdbdb;
 	color: #000000;
-	padding: 0px 0px 35px;
+	padding: 0px 0px 15px;
 	margin-top: 100px; /*50*/
 	font-size: 14px;
 	position: relative;
@@ -4173,8 +4173,8 @@ ul.section-grouplisting{
 	.narrow .mod-testimonial-4 .testimonial-item{ 
 		width: 25%;
 	}
-	.narrow .mod-testimonial .testimonial-content{ 
-		padding: 35px 40px 35px 30px;
+	.narrow .mod-testimonial .testimonial-content{
+		padding: 45px 35px 35px 50px;
 	}
 	.narrow .mod-testimonial .testimonial .region{ 
 		left: 35px;
@@ -5073,7 +5073,7 @@ button.button.primary, .mod-filter .filter-submit .button.primary
  */
 @media screen and (min-width: 766px) {
 	.footer .footer-bottom {
-		padding: 50px 0
+		padding: 20px 0 0 65px
 	}
 	.mod-filter .form-accordian .form-header{
 		cursor: default;
@@ -5130,7 +5130,7 @@ button.button.primary, .mod-filter .filter-submit .button.primary
 		margin-bottom:30px;
 	}
 	.footer .footer-bottom{
-		padding: 50px 0; 
+		padding: 20px 0 0 0;
 	}
 	.content-drop-two {
 		padding: 0;

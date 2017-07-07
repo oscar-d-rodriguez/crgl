@@ -132,7 +132,8 @@ a.skip:hover {
   pointer-events: none; }
   @media (max-width: 765px) {
     .header {
-      background: #ebebeb; } }
+      background: white;
+      } }
 
 @media (max-width: 765px) {
   .no-scroll {
@@ -151,7 +152,7 @@ a.skip:hover {
   .header {
     height: 50px;
     /*position: fixed;*/
-	position:relative;
+    position:relative;
     top: 0;
     left: 0;
     right: 0;
@@ -159,7 +160,8 @@ a.skip:hover {
     padding: 10px 10px;
     overflow: hidden;
     box-shadow: 0px 6px 25px -8px rgba(0, 0, 0, 0.63);
-    /******search******/ }
+    /******search******/
+    }
     .header::-webkit-scrollbar {
       display: none; }
     .header > div.header-contain {
