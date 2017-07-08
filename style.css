@@ -964,11 +964,11 @@ select{
 	*******************/
 	.breadcrumb{
 		font-size: 14px;
-		padding-bottom: 5px;
+		/* padding-bottom: 5px; */
 		color: #333333;
 		position:relative;
 		/*margin-left:-5px;*/
-		left:-5px;
+		/* left:-5px; */
 	}
 	.maincontain .breadcrumb a,
 	.maincontain .breadcrumb a.active, .maincontain .breadcrumb span.active{
@@ -1409,12 +1409,12 @@ select{
 	.footer{
 		background-color: #dbdbdb;
 		color: #000000;
-		padding: 0px 0px 35px;
-		margin-top: 100px; /*50*/
+		/* padding: 0px 0px 35px; */
+		/* margin-top: 100px; */ /*50*/
 		font-size: 14px;
 		position: relative;
 		/*width: 1280px;*/
-		margin-top:4%;
+		/* margin-top:4%; */
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -1794,8 +1794,8 @@ select{
 		position: relative;
 		font-size:18px;
 		line-height:26px;
-		padding: 100px 45px 0;
-		margin-bottom:20px;
+		/* padding: 100px 45px 0; */
+		/* margin-bottom:20px; */
 	}
 
 	.content-header p{
@@ -2296,7 +2296,7 @@ select{
 		z-index:1;
 		overflow:hidden;
 		/*margin-top:-58px;*/
-		max-width: 100% !important;
+		/* max-width: 100% !important; */
 	}
 	/*slick slider overrides*/
 	.mod-heroslider .slick-slider{
@@ -2433,7 +2433,7 @@ select{
 		bottom:0;
 	}
 	.mod-heroslider .slider-image-content{
-		padding: 0;
+		/* padding: 0; */
 		width: 100%;
 		box-sizing: border-box;
 		position: absolute;
@@ -2445,12 +2445,12 @@ select{
 
 	.narrow-inner .mod-heroslider .slider-image-content{
 		/* padding: 0px 45px; */
-		width: 100%;
+		/* width: 100%; */
 		/* box-sizing: border-box; */
 		/* position: absolute; */
-		top: 75%;
-		left:0px;
-		bottom: 0;
+		/* top: 75%; */
+		/* left:0px; */
+		/* bottom: 0; */
 		background-color:#ffd13f;
 		opacity:0.85;
 		color:#333333;
@@ -2657,8 +2657,8 @@ select{
 			font-size: 50px;
 	}
 		.mod-heroslider .slider-image-content{
-			padding: 0;
-			top: 0;
+			/* padding: 0; */
+			/* top: 0; */
 		}
 		.mod-heroslider .slider-image,
 		.mod-heroslider .hero-video,
@@ -4056,24 +4056,6 @@ select{
 		.mod-sectionlisting .section-item:first-child{
 			padding: 0;
 		}
-		.mod-sectionlisting .section-listing li,
-		/*.mod-sectionlisting .section-grouplisting li{
-			line-height: 38px;
-			padding: 30px 0;
-			font-size: 31px;
-		}*/
-
-		/*.mod-sectionlisting .section-grouplisting li:first-of-type{
-			font-size: 28px;			
-		}*/	
-		
-		.narrow .mod-sectionlisting,
-		.narrow .mod-sectionlisting.padding-default{
-			/*
-			margin-left:0;
-			margin-right:0;
-			*/
-		}
 
 	}
 	/*--end mod-sectionlisting--*/
@@ -4088,7 +4070,7 @@ select{
 		padding: 0;
 	}
 	.body-note .mod-testimonial {
-		padding: 30px;
+		/* padding: 30px; */
 	}
 	.testimonial-details span.button-secondary  a {
 		float: left;
@@ -5341,7 +5323,7 @@ select{
 		/*height:120px;*/
 		position: relative;
 		margin-right: 15px;
-		margin-top: 10%; 
+		margin-top: 10%; 
 	}
 	.mod-cta .cta-image .play{
 		background-size: cover;
@@ -8510,17 +8492,17 @@ ul.slick-dots{
 				font-family:"Roboto Slab";
 				font-weight:300;
 				font-size:36px;
-				margin-left:0%; 
-				margin-right:-35%; 
+				/* margin-left:0%; */
+				/* margin-right:-35%; */
 				background: linear-gradient(to right,#f38b00,#f38b00,#EBA754,#EBA754,#EBA754,#EEB050,#ffd13f,#ffd13f);
-				padding:0px 0px 30px 0px;
+				/* padding:0px 0px 30px 0px; */
 			}
 			#header1ColumnLayout{
 				color:white;
 				font-family:"Helvetica";
 				font-size:20px;
-				max-width: 1280px;
-				margin: -20px auto 0;
+				/* max-width: 1280px; */
+				/* margin: -20px auto 0; */
 			}
 			#content{
 				margin-left:100px;
@@ -8661,7 +8643,7 @@ ul.slick-dots{
 			position: relative;	
 			border:10px solid rgb(255, 255, 255);
 			height:100%;		
-			padding-left:37px; 
+			padding-left:37px; 
 			padding-bottom:20px;
 			padding-top:35px;
 			margin-left:80px;
@@ -8888,4 +8870,11 @@ div.two-coloumn-body .testimonial-item-promo .testimonial-image-contain{
 
 .productscategoriespage {
     max-width: 1280px;
+}
+
+.pagecontain.c-container.productscategoriespage .slider-header.c-container {
+    padding: 10px 25px 0;
+}
+.product-title h1 {
+    text-transform: capitalize;
 }
