@@ -10,6 +10,7 @@
   max-width: 1280px;
   margin-right: auto;
   margin-left: auto;
+  padding: 0 45px;
   }
 
 .header .menuToggle, .mobile-search, .logo-bar {
@@ -130,9 +131,7 @@ a.skip:hover {
   box-sizing: border-box;
   position: relative;
   pointer-events: none; }
-  @media (max-width: 765px) {
-    .header {
-      background: #ebebeb; } }
+
 
 @media (max-width: 765px) {
   .no-scroll {
