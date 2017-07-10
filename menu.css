@@ -6,13 +6,6 @@
   padding: 15px 45px;
   box-sizing: border-box; }
 
-.mod-heroslider {
-  max-width: 1280px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 45px;
-  }
-
 .header .menuToggle, .mobile-search, .logo-bar {
   display: none; }
 
