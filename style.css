@@ -3628,6 +3628,9 @@
 		display: table-cell;
 		vertical-align: middle;
 		padding: 30px 65px 30px;
+		border-right: solid 0.5px #333;
+ 		border-left: solid 0.5px #333;
+ 		border-bottom: solid 0.5px #333;
 	}
 	.mod-testimonial-1 .button{
 		margin-top:15px;
@@ -6404,6 +6407,9 @@
 	.camera_chocolate_skin .camera_commands > .camera_stop {
 		background-position: -120px -440px	;
 	}
+	.narrow .mod-testimonial .testimonial-content{
+ 		padding: 45px 35px 35px 50px;
+ 	}
 	/*COFFEE SKIN*/
 	.camera_coffee_skin .camera_prevThumbs div {
 		background-position: -160px -480px;
